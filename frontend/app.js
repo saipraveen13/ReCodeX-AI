@@ -67,7 +67,7 @@ if (logoutBtn) {
         localStorage.removeItem('recodex_authenticated');
 
         // Redirect to home page
-        window.location.href = 'home.html';
+        window.location.href = 'index.html';
     });
 }
 

@@ -182,12 +182,12 @@ function showWelcomeOverlay(name) {
 
         // Redirect after animation
         setTimeout(() => {
-            window.location.href = 'index.html';
+            window.location.href = 'app.html';
         }, 2000);
     } else {
         // Fallback if overlay not found
         setTimeout(() => {
-            window.location.href = 'index.html';
+            window.location.href = 'app.html';
         }, 1000);
     }
 }
